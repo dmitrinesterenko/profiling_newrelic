@@ -40,7 +40,7 @@ elsif defined?(Rails::VERSION)
       class Railtie < Rails::Railtie
         initializer "newrelic_rpm.start_plugin" do |app|
           NewRelic::Control.instance.init_plugin(:config => app.config)
-          binding.pry
+          puts "-"*10 + self.class.name
         end
       end
     end

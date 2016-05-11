@@ -159,6 +159,8 @@ module NewRelic
           def add_transaction_tracer(method, options={})
             # The metric path:
             options[:name] ||= method.to_s
+            puts self.class.name
+            binding.pry
 
             argument_list = generate_argument_list(options)
             traced_method, punctuation = parse_punctuation(method)

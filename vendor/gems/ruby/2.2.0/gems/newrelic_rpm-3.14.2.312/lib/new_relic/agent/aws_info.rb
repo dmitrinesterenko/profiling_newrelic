@@ -11,6 +11,7 @@ module NewRelic
       attr_reader :instance_type, :instance_id, :availability_zone
 
       def initialize
+        puts "-"*10 + self.class.name
         handle_remote_calls do
           @instance_type = remote_fetch('instance-type')
           @instance_id = remote_fetch('instance-id')
