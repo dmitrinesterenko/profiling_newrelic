@@ -9,10 +9,12 @@ module NewRelic
   module Agent
     module Instrumentation
       class ActionControllerSubscriber < EventedSubscriber
-
+        @time_start = nil
+        @time_stop = nil
         def start(name, id, payload) #THREAD_LOCAL_ACCESS
-          puts "-START"*10 + self.class.name
+          puts "-"*10 + "START-" + self.class.name
           binding.pry
+          @time_start = Time.now
           state = TransactionState.tl_get
           request = state.request
           event = ControllerEvent.new(name, Time.now, nil, id, payload, request)
@@ -35,6 +37,9 @@ module NewRelic
           event.payload.merge!(payload)
 
           state = TransactionState.tl_get
+          binding.pry
+          @time_stop = Time.now
+          puts "-"*10 + " took me " + @time_stop - @time_start
 
           if state.is_execution_traced? && !event.ignored?
             stop_transaction(state, event)
