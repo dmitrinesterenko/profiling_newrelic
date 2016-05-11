@@ -23,6 +23,8 @@
 #
 
 require 'new_relic/control'
+require 'pry'
+
 if defined?(Merb) && defined?(Merb::BootLoader)
   module NewRelic
     class MerbBootLoader < Merb::BootLoader
@@ -36,9 +38,9 @@ elsif defined?(Rails::VERSION)
   if Rails::VERSION::MAJOR.to_i >= 3
     module NewRelic
       class Railtie < Rails::Railtie
-
         initializer "newrelic_rpm.start_plugin" do |app|
           NewRelic::Control.instance.init_plugin(:config => app.config)
+          puts "HELLO THERE"
         end
       end
     end
