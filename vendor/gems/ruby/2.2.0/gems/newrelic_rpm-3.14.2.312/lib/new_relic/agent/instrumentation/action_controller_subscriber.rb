@@ -13,7 +13,6 @@ module NewRelic
         @time_stop = nil
         def start(name, id, payload) #THREAD_LOCAL_ACCESS
           puts "-"*10 + "START-" + self.class.name
-          binding.pry
           @time_start = Time.now
           state = TransactionState.tl_get
           request = state.request
@@ -35,17 +34,16 @@ module NewRelic
         def finish(name, id, payload) #THREAD_LOCAL_ACCESS
           event = pop_event(id)
           event.payload.merge!(payload)
-
           state = TransactionState.tl_get
-          binding.pry
-          @time_stop = Time.now
-          puts "-"*10 + " took me " + @time_stop - @time_start
-
           if state.is_execution_traced? && !event.ignored?
             stop_transaction(state, event)
           else
             Agent.instance.pop_trace_execution_flag
           end
+          @time_stop = Time.now
+          puts "-"*10 + " Profiling took " + \
+                (@time_stop - @time_start).to_s + \
+                "ms for #{payload[:controller]}/#{payload[:action]}"
         rescue => e
           log_notification_error(e, name, 'finish')
         end
