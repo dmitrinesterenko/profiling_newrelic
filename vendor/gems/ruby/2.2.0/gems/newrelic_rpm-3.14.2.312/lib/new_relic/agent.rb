@@ -3,7 +3,9 @@
 # See https://github.com/newrelic/rpm/blob/master/LICENSE for complete details.
 
 require 'forwardable'
-
+require 'ruby-prof'
+require 'pry'
+RubyProf.start
 # @api public
 module NewRelic
   # This module contains most of the public API methods for the Ruby Agent.
@@ -11,8 +13,7 @@ module NewRelic
   # For adding custom instrumentation to method invocations, see
   # the docs for {NewRelic::Agent::MethodTracer} and
   # {NewRelic::Agent::MethodTracer::ClassMethods}.
-  #
-  # For information on how to trace transactions in non-Rack contexts,
+  # # For information on how to trace transactions in non-Rack contexts,
   # see {NewRelic::Agent::Instrumentation::ControllerInstrumentation}.
   #
   # For general documentation about the Ruby agent, see:
@@ -711,4 +712,14 @@ module NewRelic
 
     def_delegator :'NewRelic::Agent::PipeChannelManager', :register_report_channel
   end
+end
+
+result = RubyProf.stop
+flat = RubyProf::FlatPrinter.new(result)
+File.open("./data/newrelic_flat.txt", "w") do |f|
+  flat.print(f)
+end
+graph = RubyProf::GraphPrinter.new(result)
+File.open("./data/newrelic_graph.txt", "w") do |f|
+  graph.print(f)
 end

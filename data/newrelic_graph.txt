@@ -1,0 +1,617 @@
+Measure Mode: wall_time
+Thread ID: 16046480
+Fiber ID: 30270920
+Total Time: 0.09170985221862793
+Sort by: total_time
+
+  %total   %self      total       self       wait      child            calls     name
+--------------------------------------------------------------------------------
+ 100.00%   0.19%      0.092      0.000      0.000      0.092                1     Global#[No method]
+                      0.090      0.024      0.000      0.066           38/199     Kernel#require
+                      0.002      0.000      0.000      0.002             1/14     Class#new
+                      0.000      0.000      0.000      0.000             1/14     Forwardable#def_instance_delegator
+                      0.000      0.000      0.000      0.000          43/1652     Module#method_added
+                      0.000      0.000      0.000      0.000             1/90     Module#attr_reader
+                      0.000      0.000      0.000      0.000             2/19     Kernel#extend
+                      0.000      0.000      0.000      0.000            8/123     Class#inherited
+--------------------------------------------------------------------------------
+                      0.064      0.027      0.000      0.037          161/199     Kernel#require
+                      0.090      0.024      0.000      0.066           38/199     Global#[No method]
+  97.97%  26.34%      0.090      0.024      0.000      0.066              199    *Kernel#require
+                      0.064      0.027      0.000      0.037          161/199     Kernel#require
+                      0.001      0.000      0.000      0.001              3/3     Forwardable#def_instance_delegators
+                      0.001      0.001      0.000      0.000        1218/1652     Module#method_added
+                      0.001      0.001      0.000      0.000          240/240     IO#set_encoding
+                      0.001      0.000      0.000      0.000            46/46     Module#attr_accessor
+                      0.001      0.000      0.000      0.000            89/90     Module#attr_reader
+                      0.000      0.000      0.000      0.000            22/22     Module#include
+                      0.000      0.000      0.000      0.000          114/123     Class#inherited
+                      0.000      0.000      0.000      0.000            15/19     Kernel#extend
+                      0.000      0.000      0.000      0.000          135/144     BasicObject#singleton_method_added
+                      0.000      0.000      0.000      0.000              1/1     Module#instance_methods
+                      0.000      0.000      0.000      0.000             3/14     Class#new
+                      0.000      0.000      0.000      0.000            21/21     <Class::NewRelic::EnvironmentReport>#report_on
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::BusyCalculator#reset
+                      0.000      0.000      0.000      0.000              8/8     <Module::NewRelic::Agent::PayloadMetricMapping>#map_metric
+                      0.000      0.000      0.000      0.000              1/1     Kernel#puts
+                      0.000      0.000      0.000      0.000            21/21     <Module::NewRelic::Agent::Configuration>#value_of
+                      0.000      0.000      0.000      0.000            31/31     Kernel#freeze
+                      0.000      0.000      0.000      0.000              1/1     <Class::Struct>#new
+                      0.000      0.000      0.000      0.000            25/25     Module#private
+                      0.000      0.000      0.000      0.000              1/1     <Class::Time>#at_with_coercion
+                      0.000      0.000      0.000      0.000              1/1     Enumerable#map
+                      0.000      0.000      0.000      0.000            15/15     Kernel#method
+                      0.000      0.000      0.000      0.000              4/4     <Class::NewRelic::Agent::EventAggregator>#named
+                      0.000      0.000      0.000      0.000             4/38     <Class::Proc>#new
+                      0.000      0.000      0.000      0.000              2/2     Module#attr_writer
+                      0.000      0.000      0.000      0.000              5/5     Module#alias_method
+                      0.000      0.000      0.000      0.000              1/1     Array#join
+                      0.000      0.000      0.000      0.000              3/3     Module#module_function
+                      0.000      0.000      0.000      0.000              5/5     <Class::NewRelic::Agent::Sampler>#inherited
+                      0.000      0.000      0.000      0.000              7/7     Module#protected
+                      0.000      0.000      0.000      0.000              1/1     Module#name
+                      0.000      0.000      0.000      0.000              1/1     Array#include?
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#agent_enabled
+                      0.000      0.000      0.000      0.000              4/4     <Class::NewRelic::Agent::EventAggregator>#capacity_key
+                      0.000      0.000      0.000      0.000              5/5     <Class::NewRelic::Agent::Sampler>#named
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#profiling_available
+                      0.000      0.000      0.000      0.000              4/4     <Class::NewRelic::Agent::EventAggregator>#enabled_key
+                      0.000      0.000      0.000      0.000              1/1     Kernel#class
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#normalize_json_string_encodings
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#thread_profiler_enabled
+                      0.000      0.000      0.000      0.000              1/1     Comparable#<
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#audit_log_path
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#port
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#framework
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#dispatcher
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#config_search_paths
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#config_path
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::EventAggregator>#buffer_class
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#browser_monitoring_loader
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#transaction_tracer_transaction_threshold
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Configuration::DefaultSource>#app_name
+                      0.000      0.000      0.000      0.000              5/5     Fixnum#<<
+                      0.000      0.000      0.000      0.000              1/1     Module#public
+                      0.000      0.000      0.000      0.000             1/13     String#freeze
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/14     NewRelic::Agent::BusyCalculator#reset
+                      0.000      0.000      0.000      0.000             1/14     NewRelic::Agent::Configuration::Manager#initialize
+                      0.000      0.000      0.000      0.000             1/14     <Class::NewRelic::EnvironmentReport>#registered_reporters
+                      0.000      0.000      0.000      0.000             1/14     NewRelic::Agent::TransactionState#initialize
+                      0.000      0.000      0.000      0.000             2/14     BasicObject#instance_eval
+                      0.000      0.000      0.000      0.000             1/14     NewRelic::Agent::Configuration::Manager#reset_cache
+                      0.000      0.000      0.000      0.000             1/14     <Class::NewRelic::Agent::TransactionState>#tl_state_for
+                      0.000      0.000      0.000      0.000             3/14     Kernel#require
+                      0.001      0.000      0.000      0.001             2/14     NewRelic::Agent::Configuration::Manager#reset_to_defaults
+                      0.002      0.000      0.000      0.002             1/14     Global#[No method]
+   1.74%   0.02%      0.002      0.000      0.000      0.002               14    *Class#new
+                      0.002      0.000      0.000      0.002              1/1     NewRelic::Agent::Configuration::Manager#initialize
+                      0.001      0.000      0.000      0.001              1/1     NewRelic::Agent::Configuration::EnvironmentSource#initialize
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::DefaultSource#initialize
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::VersionNumber#initialize
+                      0.000      0.000      0.000      0.000              2/2     Regexp#initialize
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TransactionState#initialize
+                      0.000      0.000      0.000      0.000              3/3     Hash#initialize
+                      0.000      0.000      0.000      0.000              3/3     Mutex#initialize
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TracedMethodStack#initialize
+--------------------------------------------------------------------------------
+                      0.002      0.000      0.000      0.002              1/1     Class#new
+   1.64%   0.01%      0.002      0.000      0.000      0.002                1     NewRelic::Agent::Configuration::Manager#initialize
+                      0.001      0.000      0.000      0.001              1/1     NewRelic::Agent::Configuration::Manager#reset_to_defaults
+                      0.000      0.000      0.000      0.000             1/14     Class#new
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001              1/1     NewRelic::Agent::Configuration::Manager#initialize
+   1.63%   0.01%      0.001      0.000      0.000      0.001                1     NewRelic::Agent::Configuration::Manager#reset_to_defaults
+                      0.001      0.000      0.000      0.001             2/14     Class#new
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::Manager#reset_cache
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001              1/1     Class#new
+   1.52%   0.01%      0.001      0.000      0.000      0.001                1     NewRelic::Agent::Configuration::EnvironmentSource#initialize
+                      0.001      0.000      0.000      0.001              1/2     Hash#each
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#set_values_from_new_relic_environment_variables
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#set_log_file
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#set_config_file
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2     NewRelic::Agent::Configuration::DefaultSource#default_values
+                      0.001      0.000      0.000      0.001              1/2     NewRelic::Agent::Configuration::EnvironmentSource#initialize
+   1.36%   0.26%      0.001      0.000      0.000      0.001                2     Hash#each
+                      0.001      0.000      0.000      0.001          177/177     NewRelic::Agent::Configuration::EnvironmentSource#set_aliases
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001          177/177     Hash#each
+   1.10%   0.11%      0.001      0.000      0.000      0.001              177     NewRelic::Agent::Configuration::EnvironmentSource#set_aliases
+                      0.001      0.000      0.000      0.001          177/177     NewRelic::Agent::Configuration::EnvironmentSource#set_dotted_alias
+                      0.000      0.000      0.000      0.000             1/13     Array#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000           5/1652     Module#alias_method
+                      0.000      0.000      0.000      0.000           2/1652     Module#attr_writer
+                      0.000      0.000      0.000      0.000           4/1652     <Class::Struct>#new
+                      0.000      0.000      0.000      0.000          14/1652     Module#module_eval
+                      0.000      0.000      0.000      0.000          43/1652     Global#[No method]
+                      0.000      0.000      0.000      0.000         160/1652     Module#attr_reader
+                      0.000      0.000      0.000      0.000         206/1652     Module#attr_accessor
+                      0.001      0.001      0.000      0.000        1218/1652     Kernel#require
+   1.08%   1.08%      0.001      0.001      0.000      0.000             1652     Module#method_added
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001          177/177     NewRelic::Agent::Configuration::EnvironmentSource#set_aliases
+   0.98%   0.25%      0.001      0.000      0.000      0.001              177     NewRelic::Agent::Configuration::EnvironmentSource#set_dotted_alias
+                      0.000      0.000      0.000      0.000            77/77     String#gsub
+                      0.000      0.000      0.000      0.000          177/223     Symbol#to_s
+                      0.000      0.000      0.000      0.000            77/77     String#to_sym
+                      0.000      0.000      0.000      0.000          177/177     String#include?
+                      0.000      0.000      0.000      0.000            71/71     Kernel#hash
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/14     Global#[No method]
+                      0.001      0.000      0.000      0.001            13/14     Array#each
+   0.93%   0.06%      0.001      0.000      0.000      0.001               14     Forwardable#def_instance_delegator
+                      0.001      0.001      0.000      0.000            14/14     Module#module_eval
+                      0.000      0.000      0.000      0.000           42/223     Symbol#to_s
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.001              3/3     Kernel#require
+   0.86%   0.01%      0.001      0.000      0.000      0.001                3     Forwardable#def_instance_delegators
+                      0.001      0.000      0.000      0.001             3/13     Array#each
+                      0.000      0.000      0.000      0.000              6/6     Array#delete
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/13     NewRelic::Agent::Configuration::EnvironmentSource#set_values_from_new_relic_environment_variables
+                      0.000      0.000      0.000      0.000             1/13     NewRelic::Agent::Configuration::EnvironmentSource#set_aliases
+                      0.000      0.000      0.000      0.000             8/13     <Module::NewRelic::Agent::PayloadMetricMapping>#map_metric
+                      0.001      0.000      0.000      0.001             3/13     Forwardable#def_instance_delegators
+   0.85%   0.03%      0.001      0.000      0.000      0.001               13     Array#each
+                      0.001      0.000      0.000      0.001            13/14     Forwardable#def_instance_delegator
+                      0.000      0.000      0.000      0.000             8/13     String#freeze
+--------------------------------------------------------------------------------
+                      0.001      0.001      0.000      0.000            14/14     Forwardable#def_instance_delegator
+   0.85%   0.82%      0.001      0.001      0.000      0.000               14     Module#module_eval
+                      0.000      0.000      0.000      0.000          14/1652     Module#method_added
+--------------------------------------------------------------------------------
+                      0.001      0.001      0.000      0.000          240/240     Kernel#require
+   0.71%   0.71%      0.001      0.001      0.000      0.000              240     IO#set_encoding
+--------------------------------------------------------------------------------
+                      0.001      0.000      0.000      0.000            46/46     Kernel#require
+   0.62%   0.49%      0.001      0.000      0.000      0.000               46     Module#attr_accessor
+                      0.000      0.000      0.000      0.000         206/1652     Module#method_added
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/90     Global#[No method]
+                      0.001      0.000      0.000      0.000            89/90     Kernel#require
+   0.56%   0.45%      0.001      0.000      0.000      0.000               90     Module#attr_reader
+                      0.000      0.000      0.000      0.000         160/1652     Module#method_added
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            77/77     NewRelic::Agent::Configuration::EnvironmentSource#set_dotted_alias
+   0.24%   0.24%      0.000      0.000      0.000      0.000               77     String#gsub
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            4/223     <Class::NewRelic::Agent::EventAggregator>#named
+                      0.000      0.000      0.000      0.000           42/223     Forwardable#def_instance_delegator
+                      0.000      0.000      0.000      0.000          177/223     NewRelic::Agent::Configuration::EnvironmentSource#set_dotted_alias
+   0.23%   0.23%      0.000      0.000      0.000      0.000              223     Symbol#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#initialize
+   0.21%   0.01%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Configuration::EnvironmentSource#set_values_from_new_relic_environment_variables
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#collect_new_relic_environment_variable_keys
+                      0.000      0.000      0.000      0.000             1/13     Array#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            77/77     NewRelic::Agent::Configuration::EnvironmentSource#set_dotted_alias
+   0.21%   0.21%      0.000      0.000      0.000      0.000               77     String#to_sym
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#set_values_from_new_relic_environment_variables
+   0.20%   0.00%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Configuration::EnvironmentSource#collect_new_relic_environment_variable_keys
+                      0.000      0.000      0.000      0.000              1/1     Array#select
+                      0.000      0.000      0.000      0.000              1/1     <Object::Object>#keys
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            1/123     <Class::Struct>#new
+                      0.000      0.000      0.000      0.000            8/123     Global#[No method]
+                      0.000      0.000      0.000      0.000          114/123     Kernel#require
+   0.19%   0.19%      0.000      0.000      0.000      0.000              123     Class#inherited
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            22/22     Kernel#require
+   0.18%   0.04%      0.000      0.000      0.000      0.000               22     Module#include
+                      0.000      0.000      0.000      0.000              2/2     <Module::Singleton>#included
+                      0.000      0.000      0.000      0.000            20/22     Module#append_features
+                      0.000      0.000      0.000      0.000              2/2     <Module::Singleton>#append_features
+                      0.000      0.000      0.000      0.000            20/22     Module#included
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#collect_new_relic_environment_variable_keys
+   0.14%   0.04%      0.000      0.000      0.000      0.000                1     Array#select
+                      0.000      0.000      0.000      0.000          100/100     String#match
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             2/19     <Module::Singleton>#included
+                      0.000      0.000      0.000      0.000             2/19     Global#[No method]
+                      0.000      0.000      0.000      0.000            15/19     Kernel#require
+   0.13%   0.05%      0.000      0.000      0.000      0.000               19     Kernel#extend
+                      0.000      0.000      0.000      0.000            19/19     Module#extend_object
+                      0.000      0.000      0.000      0.000            19/19     Module#extended
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            2/144     <Module::Singleton>#__init__
+                      0.000      0.000      0.000      0.000            3/144     <Class::Struct>#new
+                      0.000      0.000      0.000      0.000            4/144     Module#private_class_method
+                      0.000      0.000      0.000      0.000          135/144     Kernel#require
+   0.11%   0.11%      0.000      0.000      0.000      0.000              144     BasicObject#singleton_method_added
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000          100/100     Array#select
+   0.10%   0.03%      0.000      0.000      0.000      0.000              100     String#match
+                      0.000      0.000      0.000      0.000          100/100     Regexp#match
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.10%   0.10%      0.000      0.000      0.000      0.000                1     Module#instance_methods
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Class#new
+   0.09%   0.01%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Configuration::DefaultSource#initialize
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::DefaultSource#default_values
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::DefaultSource#initialize
+   0.08%   0.00%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Configuration::DefaultSource#default_values
+                      0.000      0.000      0.000      0.000              1/2     Hash#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000          100/100     String#match
+   0.08%   0.08%      0.000      0.000      0.000      0.000              100     Regexp#match
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#app_name
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#config_path
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#dispatcher
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#framework
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#transaction_tracer_transaction_threshold
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#browser_monitoring_loader
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#thread_profiler_enabled
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#port
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#audit_log_path
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#normalize_json_string_encodings
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#config_search_paths
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#profiling_available
+                      0.000      0.000      0.000      0.000             1/38     <Class::NewRelic::Agent::Configuration::DefaultSource>#agent_enabled
+                      0.000      0.000      0.000      0.000             4/38     Kernel#require
+                      0.000      0.000      0.000      0.000            21/38     <Module::NewRelic::Agent::Configuration>#value_of
+   0.07%   0.05%      0.000      0.000      0.000      0.000               38     <Class::Proc>#new
+                      0.000      0.000      0.000      0.000            38/38     BasicObject#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     Module#include
+   0.06%   0.01%      0.000      0.000      0.000      0.000                2     <Module::Singleton>#included
+                      0.000      0.000      0.000      0.000              2/2     <Module::Singleton>#__init__
+                      0.000      0.000      0.000      0.000              2/2     Module#private_class_method
+                      0.000      0.000      0.000      0.000             2/19     Kernel#extend
+                      0.000      0.000      0.000      0.000             2/22     Module#included
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000          177/177     NewRelic::Agent::Configuration::EnvironmentSource#set_dotted_alias
+   0.06%   0.06%      0.000      0.000      0.000      0.000              177     String#include?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#collect_new_relic_environment_variable_keys
+   0.06%   0.06%      0.000      0.000      0.000      0.000                1     <Object::Object>#keys
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            19/19     Kernel#extend
+   0.06%   0.06%      0.000      0.000      0.000      0.000               19     Module#extend_object
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            21/21     Kernel#require
+   0.06%   0.04%      0.000      0.000      0.000      0.000               21     <Class::NewRelic::EnvironmentReport>#report_on
+                      0.000      0.000      0.000      0.000            21/21     <Class::NewRelic::EnvironmentReport>#registered_reporters
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.06%   0.01%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::BusyCalculator#reset
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::TransactionState>#tl_get
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::BusyCalculator#time_now
+                      0.000      0.000      0.000      0.000             1/14     Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             2/22     <Module::Singleton>#append_features
+                      0.000      0.000      0.000      0.000            20/22     Module#include
+   0.05%   0.05%      0.000      0.000      0.000      0.000               22     Module#append_features
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8     Kernel#require
+   0.05%   0.02%      0.000      0.000      0.000      0.000                8     <Module::NewRelic::Agent::PayloadMetricMapping>#map_metric
+                      0.000      0.000      0.000      0.000             8/13     Array#each
+                      0.000      0.000      0.000      0.000              8/8     Hash#fetch
+                      0.000      0.000      0.000      0.000              8/8     Symbol#to_proc
+                      0.000      0.000      0.000      0.000              8/8     Hash#merge!
+                      0.000      0.000      0.000      0.000              8/8     Hash#values
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.04%   0.01%      0.000      0.000      0.000      0.000                1     Kernel#puts
+                      0.000      0.000      0.000      0.000              1/1     IO#puts
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            21/21     Kernel#require
+   0.04%   0.01%      0.000      0.000      0.000      0.000               21     <Module::NewRelic::Agent::Configuration>#value_of
+                      0.000      0.000      0.000      0.000            21/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            31/31     Kernel#require
+   0.04%   0.04%      0.000      0.000      0.000      0.000               31     Kernel#freeze
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#puts
+   0.04%   0.01%      0.000      0.000      0.000      0.000                1     IO#puts
+                      0.000      0.000      0.000      0.000              2/2     IO#write
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.04%   0.03%      0.000      0.000      0.000      0.000                1     <Class::Struct>#new
+                      0.000      0.000      0.000      0.000           4/1652     Module#method_added
+                      0.000      0.000      0.000      0.000            3/144     BasicObject#singleton_method_added
+                      0.000      0.000      0.000      0.000            1/123     Class#inherited
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Class#new
+   0.04%   0.00%      0.000      0.000      0.000      0.000                1     NewRelic::VersionNumber#initialize
+                      0.000      0.000      0.000      0.000              1/1     Array#map
+                      0.000      0.000      0.000      0.000              1/1     String#split
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     IO#puts
+   0.03%   0.03%      0.000      0.000      0.000      0.000                2     IO#write
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::BusyCalculator#reset
+   0.03%   0.01%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::TransactionState>#tl_get
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::TransactionState>#tl_state_for
+                      0.000      0.000      0.000      0.000              1/1     <Class::Thread>#current
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::VersionNumber#initialize
+   0.03%   0.03%      0.000      0.000      0.000      0.000                1     Array#map
+                      0.000      0.000      0.000      0.000              3/3     String#to_i
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     <Module::Singleton>#included
+   0.03%   0.01%      0.000      0.000      0.000      0.000                2     <Module::Singleton>#__init__
+                      0.000      0.000      0.000      0.000              2/2     BasicObject#instance_eval
+                      0.000      0.000      0.000      0.000            2/144     BasicObject#singleton_method_added
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            25/25     Kernel#require
+   0.03%   0.03%      0.000      0.000      0.000      0.000               25     Module#private
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::TransactionState>#tl_get
+   0.02%   0.01%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::TransactionState>#tl_state_for
+                      0.000      0.000      0.000      0.000             1/14     Class#new
+                      0.000      0.000      0.000      0.000              1/1     Thread#[]=
+                      0.000      0.000      0.000      0.000              1/1     NilClass#nil?
+                      0.000      0.000      0.000      0.000              1/1     Thread#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.02%   0.01%      0.000      0.000      0.000      0.000                1     <Class::Time>#at_with_coercion
+                      0.000      0.000      0.000      0.000              2/2     Kernel#is_a?
+                      0.000      0.000      0.000      0.000              1/1     <Class::Time>#at_without_coercion
+                      0.000      0.000      0.000      0.000              1/1     Array#first
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.02%   0.00%      0.000      0.000      0.000      0.000                1     Enumerable#map
+                      0.000      0.000      0.000      0.000              1/1     Range#each
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            15/15     Kernel#require
+   0.02%   0.02%      0.000      0.000      0.000      0.000               15     Kernel#method
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            71/71     NewRelic::Agent::Configuration::EnvironmentSource#set_dotted_alias
+   0.02%   0.02%      0.000      0.000      0.000      0.000               71     Kernel#hash
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     Class#new
+   0.02%   0.02%      0.000      0.000      0.000      0.000                2     Regexp#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4     Kernel#require
+   0.02%   0.01%      0.000      0.000      0.000      0.000                4     <Class::NewRelic::Agent::EventAggregator>#named
+                      0.000      0.000      0.000      0.000             4/13     String#freeze
+                      0.000      0.000      0.000      0.000            4/223     Symbol#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            21/21     <Class::NewRelic::EnvironmentReport>#report_on
+   0.02%   0.01%      0.000      0.000      0.000      0.000               21     <Class::NewRelic::EnvironmentReport>#registered_reporters
+                      0.000      0.000      0.000      0.000             1/14     Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Enumerable#map
+   0.02%   0.01%      0.000      0.000      0.000      0.000                1     Range#each
+                      0.000      0.000      0.000      0.000            16/16     Fixnum#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     <Module::Singleton>#included
+   0.02%   0.01%      0.000      0.000      0.000      0.000                2     Module#private_class_method
+                      0.000      0.000      0.000      0.000            4/144     BasicObject#singleton_method_added
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            19/19     Kernel#extend
+   0.02%   0.02%      0.000      0.000      0.000      0.000               19     Module#extended
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            38/38     <Class::Proc>#new
+   0.02%   0.02%      0.000      0.000      0.000      0.000               38     BasicObject#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     Module#include
+   0.02%   0.01%      0.000      0.000      0.000      0.000                2     <Module::Singleton>#append_features
+                      0.000      0.000      0.000      0.000             2/22     Module#append_features
+                      0.000      0.000      0.000      0.000              2/2     Kernel#instance_of?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              6/6     Forwardable#def_instance_delegators
+   0.02%   0.01%      0.000      0.000      0.000      0.000                6     Array#delete
+                      0.000      0.000      0.000      0.000            26/26     Symbol#==
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     Kernel#require
+   0.02%   0.01%      0.000      0.000      0.000      0.000                2     Module#attr_writer
+                      0.000      0.000      0.000      0.000           2/1652     Module#method_added
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             2/22     <Module::Singleton>#included
+                      0.000      0.000      0.000      0.000            20/22     Module#include
+   0.01%   0.01%      0.000      0.000      0.000      0.000               22     Module#included
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::Manager#reset_to_defaults
+   0.01%   0.01%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Configuration::Manager#reset_cache
+                      0.000      0.000      0.000      0.000             1/14     Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     <Module::Singleton>#__init__
+   0.01%   0.01%      0.000      0.000      0.000      0.000                2     BasicObject#instance_eval
+                      0.000      0.000      0.000      0.000             2/14     Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::BusyCalculator#reset
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::BusyCalculator#time_now
+                      0.000      0.000      0.000      0.000              1/1     <Class::Time>#now
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Class#new
+   0.01%   0.01%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::TransactionState#initialize
+                      0.000      0.000      0.000      0.000             1/14     Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#initialize
+   0.01%   0.01%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Configuration::EnvironmentSource#set_log_file
+                      0.000      0.000      0.000      0.000              1/2     <Object::Object>#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3     Class#new
+   0.01%   0.01%      0.000      0.000      0.000      0.000                3     Hash#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              5/5     Kernel#require
+   0.01%   0.01%      0.000      0.000      0.000      0.000                5     Module#alias_method
+                      0.000      0.000      0.000      0.000           5/1652     Module#method_added
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.01%   0.01%      0.000      0.000      0.000      0.000                1     Array#join
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              5/5     Kernel#require
+   0.01%   0.01%      0.000      0.000      0.000      0.000                5     <Class::NewRelic::Agent::Sampler>#inherited
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3     Kernel#require
+   0.01%   0.01%      0.000      0.000      0.000      0.000                3     Module#module_function
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              7/7     Kernel#require
+   0.01%   0.01%      0.000      0.000      0.000      0.000                7     Module#protected
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::BusyCalculator#time_now
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1     <Class::Time>#now
+                      0.000      0.000      0.000      0.000              1/1     Time#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.01%   0.01%      0.000      0.000      0.000      0.000                1     Module#name
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.01%   0.01%      0.000      0.000      0.000      0.000                1     Array#include?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.01%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#agent_enabled
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000             1/13     Kernel#require
+                      0.000      0.000      0.000      0.000             8/13     Array#each
+                      0.000      0.000      0.000      0.000             4/13     <Class::NewRelic::Agent::EventAggregator>#named
+   0.01%   0.01%      0.000      0.000      0.000      0.000               13     String#freeze
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              5/5     Kernel#require
+   0.01%   0.01%      0.000      0.000      0.000      0.000                5     <Class::NewRelic::Agent::Sampler>#named
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            16/16     Range#each
+   0.01%   0.01%      0.000      0.000      0.000      0.000               16     Fixnum#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4     Kernel#require
+   0.01%   0.01%      0.000      0.000      0.000      0.000                4     <Class::NewRelic::Agent::EventAggregator>#capacity_key
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000            26/26     Array#delete
+   0.01%   0.01%      0.000      0.000      0.000      0.000               26     Symbol#==
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Configuration::EnvironmentSource#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Configuration::EnvironmentSource#set_config_file
+                      0.000      0.000      0.000      0.000              1/2     <Object::Object>#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2     NewRelic::Agent::Configuration::EnvironmentSource#set_config_file
+                      0.000      0.000      0.000      0.000              1/2     NewRelic::Agent::Configuration::EnvironmentSource#set_log_file
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2     <Object::Object>#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     Kernel#class
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::Time>#now
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     Time#initialize
+                      0.000      0.000      0.000      0.000              1/1     Fixnum#+
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     <Class::Time>#at_with_coercion
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2     Kernel#is_a?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8     <Module::NewRelic::Agent::PayloadMetricMapping>#map_metric
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8     Hash#fetch
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              4/4     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                4     <Class::NewRelic::Agent::EventAggregator>#enabled_key
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#profiling_available
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8     <Module::NewRelic::Agent::PayloadMetricMapping>#map_metric
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8     Symbol#to_proc
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3     Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                3     Mutex#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#normalize_json_string_encodings
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#thread_profiler_enabled
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     Comparable#<
+                      0.000      0.000      0.000      0.000              1/1     String#<=>
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::Time>#at_with_coercion
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::Time>#at_without_coercion
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#audit_log_path
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#port
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#framework
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#dispatcher
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#config_search_paths
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#config_path
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              3/3     Array#map
+   0.00%   0.00%      0.000      0.000      0.000      0.000                3     String#to_i
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Class#new
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::TracedMethodStack#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8     <Module::NewRelic::Agent::PayloadMetricMapping>#map_metric
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8     Hash#merge!
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              8/8     <Module::NewRelic::Agent::PayloadMetricMapping>#map_metric
+   0.00%   0.00%      0.000      0.000      0.000      0.000                8     Hash#values
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::EventAggregator>#buffer_class
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#browser_monitoring_loader
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#transaction_tracer_transaction_threshold
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Configuration::DefaultSource>#app_name
+                      0.000      0.000      0.000      0.000             1/38     <Class::Proc>#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::VersionNumber#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     String#split
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::TransactionState>#tl_get
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     <Class::Thread>#current
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::Time>#at_with_coercion
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     Array#first
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::TransactionState>#tl_state_for
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     Thread#[]=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::TransactionState>#tl_state_for
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     NilClass#nil?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     Module#public
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     <Module::Singleton>#append_features
+   0.00%   0.00%      0.000      0.000      0.000      0.000                2     Kernel#instance_of?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              5/5     Kernel#require
+   0.00%   0.00%      0.000      0.000      0.000      0.000                5     Fixnum#<<
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Time#initialize
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     Fixnum#+
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::TransactionState>#tl_state_for
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     Thread#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Comparable#<
+   0.00%   0.00%      0.000      0.000      0.000      0.000                1     String#<=>
+
+* indicates recursively called methods

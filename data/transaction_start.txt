@@ -1,0 +1,213 @@
+Measure Mode: wall_time
+Thread ID: 48472420
+Fiber ID: 48407620
+Total Time: 0.00017118453979492188
+Sort by: total_time
+
+  %total   %self      total       self       wait      child            calls     name
+--------------------------------------------------------------------------------
+ 100.00%   5.85%      0.000      0.000      0.000      0.000                1     <Class::NewRelic::Agent::Transaction>#start
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#create_nested_frame
+                      0.000      0.000      0.000      0.000              1/1     Kernel#puts
+                      0.000      0.000      0.000      0.000              1/1     String#*
+                      0.000      0.000      0.000      0.000              1/1     Kernel#class
+                      0.000      0.000      0.000      0.000              1/1     Module#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Transaction>#start
+  83.57%   4.04%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction#create_nested_frame
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::MethodTracerHelpers#trace_execution_scoped_header
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#set_default_transaction_name
+                      0.000      0.000      0.000      0.000              1/1     Time#to_f
+                      0.000      0.000      0.000      0.000              1/1     <Class::Time>#now
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#name_last_frame
+                      0.000      0.000      0.000      0.000              1/2     Array#push
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#create_nested_frame
+  59.61%   1.25%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::MethodTracerHelpers#trace_execution_scoped_header
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::MethodTracerHelpers#log_errors
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::MethodTracerHelpers#trace_execution_scoped_header
+  58.36%   1.67%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::MethodTracerHelpers#log_errors
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TracedMethodStack#push_frame
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::MethodTracerHelpers#log_errors
+  56.69%   3.62%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::TracedMethodStack#push_frame
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TransactionSampler#notice_push_frame
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TracedMethodStack#sampler_enabled?
+                      0.000      0.000      0.000      0.000              1/2     Class#new
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TracedMethodStack#transaction_sampler
+                      0.000      0.000      0.000      0.000              1/2     Array#push
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TracedMethodStack#push_frame
+  42.62%   2.92%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::TransactionSampler#notice_push_frame
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TransactionSampleBuilder#trace_entry
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction::DeveloperModeSampleBuffer#visit_node
+                      0.000      0.000      0.000      0.000              1/2     Float#to_f
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TransactionSampler#notice_push_frame
+  35.65%   4.46%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::TransactionSampleBuilder#trace_entry
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction::TraceNode#add_called_node
+                      0.000      0.000      0.000      0.000              2/2     NewRelic::Agent::TransactionSampleBuilder#node_limit
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction::Trace#create_node
+                      0.000      0.000      0.000      0.000              2/2     NewRelic::Agent::Transaction::Trace#count_nodes
+                      0.000      0.000      0.000      0.000              1/2     Float#to_f
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TransactionSampleBuilder#trace_entry
+  14.07%   1.25%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction::TraceNode#add_called_node
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction::TraceNode#parent_node=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction::TraceNode#add_called_node
+  12.81%  12.81%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction::TraceNode#parent_node=
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#create_nested_frame
+  12.26%   1.81%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction#set_default_transaction_name
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#influences_transaction_name?
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#default_name=
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#name_frozen?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     NewRelic::Agent::TransactionSampleBuilder#trace_entry
+  10.03%   1.81%      0.000      0.000      0.000      0.000                2     NewRelic::Agent::TransactionSampleBuilder#node_limit
+                      0.000      0.000      0.000      0.000              2/4     <Class::NewRelic::Agent::Agent>#config
+                      0.000      0.000      0.000      0.000              2/4     NewRelic::Agent::Configuration::Manager#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/4     NewRelic::Agent::Transaction::DeveloperModeSampleBuffer#enabled?
+                      0.000      0.000      0.000      0.000              1/4     NewRelic::Agent::TracedMethodStack#sampler_enabled?
+                      0.000      0.000      0.000      0.000              2/4     NewRelic::Agent::TransactionSampleBuilder#node_limit
+   8.77%   8.77%      0.000      0.000      0.000      0.000                4     <Class::NewRelic::Agent::Agent>#config
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Transaction>#start
+   7.66%   1.25%      0.000      0.000      0.000      0.000                1     Kernel#puts
+                      0.000      0.000      0.000      0.000              1/1     IO#puts
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Kernel#puts
+   6.41%   0.56%      0.000      0.000      0.000      0.000                1     IO#puts
+                      0.000      0.000      0.000      0.000              2/2     IO#write
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     IO#puts
+   5.85%   5.85%      0.000      0.000      0.000      0.000                2     IO#write
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TransactionSampleBuilder#trace_entry
+   5.85%   2.92%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction::Trace#create_node
+                      0.000      0.000      0.000      0.000              1/2     Class#new
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2     NewRelic::Agent::TracedMethodStack#push_frame
+                      0.000      0.000      0.000      0.000              1/2     NewRelic::Agent::Transaction::Trace#create_node
+   5.29%   2.37%      0.000      0.000      0.000      0.000                2     Class#new
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction::TraceNode#initialize
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TracedMethodFrame#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#set_default_transaction_name
+   5.15%   1.67%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction#influences_transaction_name?
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#similar_category?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TracedMethodStack#push_frame
+   5.15%   2.37%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::TracedMethodStack#sampler_enabled?
+                      0.000      0.000      0.000      0.000              1/4     NewRelic::Agent::Configuration::Manager#[]
+                      0.000      0.000      0.000      0.000              1/4     <Class::NewRelic::Agent::Agent>#config
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#set_default_transaction_name
+   4.74%   1.81%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction#default_name=
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Helper#correctly_encoded
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#influences_transaction_name?
+   3.48%   1.25%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction#similar_category?
+                      0.000      0.000      0.000      0.000              2/2     NewRelic::Agent::Transaction#web_category?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TransactionSampler#notice_push_frame
+   3.48%   1.11%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction::DeveloperModeSampleBuffer#visit_node
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction::DeveloperModeSampleBuffer#enabled?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/4     NewRelic::Agent::Transaction::DeveloperModeSampleBuffer#enabled?
+                      0.000      0.000      0.000      0.000              2/4     NewRelic::Agent::TransactionSampleBuilder#node_limit
+                      0.000      0.000      0.000      0.000              1/4     NewRelic::Agent::TracedMethodStack#sampler_enabled?
+   3.34%   3.34%      0.000      0.000      0.000      0.000                4     NewRelic::Agent::Configuration::Manager#[]
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#default_name=
+   2.92%   1.67%      0.000      0.000      0.000      0.000                1     NewRelic::Helper#correctly_encoded
+                      0.000      0.000      0.000      0.000              1/1     Kernel#is_a?
+                      0.000      0.000      0.000      0.000              1/1     String#valid_encoding?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#create_nested_frame
+   2.92%   1.11%      0.000      0.000      0.000      0.000                1     Time#to_f
+                      0.000      0.000      0.000      0.000              1/1     Numeric#quo
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction::DeveloperModeSampleBuffer#visit_node
+   2.37%   1.25%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction::DeveloperModeSampleBuffer#enabled?
+                      0.000      0.000      0.000      0.000              1/4     NewRelic::Agent::Configuration::Manager#[]
+                      0.000      0.000      0.000      0.000              1/4     <Class::NewRelic::Agent::Agent>#config
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TracedMethodStack#push_frame
+   2.37%   1.81%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::TracedMethodStack#transaction_sampler
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Agent::ClassMethods#instance
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#create_nested_frame
+   2.37%   1.25%      0.000      0.000      0.000      0.000                1     <Class::Time>#now
+                      0.000      0.000      0.000      0.000              1/1     Time#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     NewRelic::Agent::Transaction#similar_category?
+   2.23%   1.67%      0.000      0.000      0.000      0.000                2     NewRelic::Agent::Transaction#web_category?
+                      0.000      0.000      0.000      0.000              2/2     Array#include?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#create_nested_frame
+   1.81%   0.70%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction#name_last_frame
+                      0.000      0.000      0.000      0.000              1/1     Array#last
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Class#new
+   1.81%   1.81%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction::TraceNode#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Time#to_f
+   1.81%   1.25%      0.000      0.000      0.000      0.000                1     Numeric#quo
+                      0.000      0.000      0.000      0.000              1/1     Fixnum#fdiv
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Transaction>#start
+   1.25%   1.25%      0.000      0.000      0.000      0.000                1     String#*
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     NewRelic::Agent::TransactionSampleBuilder#trace_entry
+   1.25%   1.25%      0.000      0.000      0.000      0.000                2     NewRelic::Agent::Transaction::Trace#count_nodes
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Transaction>#start
+   1.11%   1.11%      0.000      0.000      0.000      0.000                1     Kernel#class
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#name_last_frame
+   1.11%   1.11%      0.000      0.000      0.000      0.000                1     Array#last
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2     NewRelic::Agent::TracedMethodStack#push_frame
+                      0.000      0.000      0.000      0.000              1/2     NewRelic::Agent::Transaction#create_nested_frame
+   1.11%   1.11%      0.000      0.000      0.000      0.000                2     Array#push
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Class#new
+   1.11%   1.11%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::TracedMethodFrame#initialize
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::Time>#now
+   1.11%   0.56%      0.000      0.000      0.000      0.000                1     Time#initialize
+                      0.000      0.000      0.000      0.000              1/1     Fixnum#+
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Helper#correctly_encoded
+   0.70%   0.70%      0.000      0.000      0.000      0.000                1     Kernel#is_a?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     <Class::NewRelic::Agent::Transaction>#start
+   0.56%   0.56%      0.000      0.000      0.000      0.000                1     Module#to_s
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Helper#correctly_encoded
+   0.56%   0.56%      0.000      0.000      0.000      0.000                1     String#valid_encoding?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              2/2     NewRelic::Agent::Transaction#web_category?
+   0.56%   0.56%      0.000      0.000      0.000      0.000                2     Array#include?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::Transaction#set_default_transaction_name
+   0.56%   0.56%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Transaction#name_frozen?
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/2     NewRelic::Agent::TransactionSampleBuilder#trace_entry
+                      0.000      0.000      0.000      0.000              1/2     NewRelic::Agent::TransactionSampler#notice_push_frame
+   0.56%   0.56%      0.000      0.000      0.000      0.000                2     Float#to_f
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     NewRelic::Agent::TracedMethodStack#transaction_sampler
+   0.56%   0.56%      0.000      0.000      0.000      0.000                1     NewRelic::Agent::Agent::ClassMethods#instance
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Numeric#quo
+   0.56%   0.56%      0.000      0.000      0.000      0.000                1     Fixnum#fdiv
+--------------------------------------------------------------------------------
+                      0.000      0.000      0.000      0.000              1/1     Time#initialize
+   0.56%   0.56%      0.000      0.000      0.000      0.000                1     Fixnum#+
+
+* indicates recursively called methods

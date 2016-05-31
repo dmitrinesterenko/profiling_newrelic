@@ -9,6 +9,7 @@ module NewRelic
     module Samplers
 
       class MemorySampler < NewRelic::Agent::Sampler
+        puts "Neat...memory sampling ..." +  self.class.name
         named :memory
 
         attr_accessor :sampler
