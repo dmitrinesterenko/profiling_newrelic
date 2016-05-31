@@ -23,6 +23,11 @@ cat data/newrelic_flat.txt  # "flat" representation of the New relic agent start
 cat data/newrelic_graph.txt # graph representation --//--
 cat data/transactions.txt   # graph of the transaction requests
 `
+### Read
+[Rails
+profiling](http://guides.rubyonrails.org/v3.2.13/performance_testing.html)
+[Ruby-prof](https://github.com/ruby-prof/ruby-prof)
+[NewRelic](https://github.com/newrelic/rpm)
 
 ### Hacking on the NewRelic gem
 `bundle open newrelic_rpm`
