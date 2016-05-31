@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 # New Relic
 gem 'newrelic_rpm'
+# Ruby  Prof for some profiling action
+gem 'ruby-prof'
 # Definitely need me some pry all the time
 gem 'pry', require: false
 # Let's prynav

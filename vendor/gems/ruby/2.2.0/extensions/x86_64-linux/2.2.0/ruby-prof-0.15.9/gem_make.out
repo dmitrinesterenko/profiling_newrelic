@@ -1,0 +1,44 @@
+/home/dmitri/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20160530-25795-1h8mj3n.rb extconf.rb
+checking for rb_gc_stat()... yes
+checking for rb_gc_count()... yes
+checking for rb_os_allocated_objects()... no
+checking for rb_gc_allocated_size()... no
+checking for rb_gc_collections()... no
+checking for rb_gc_time()... no
+checking for rb_gc_total_time()... no
+checking for rb_gc_total_mallocs()... no
+checking for rb_gc_total_malloced_bytes()... no
+checking for rb_heap_total_mem()... no
+checking for rb_gc_heap_info()... no
+creating Makefile
+
+make "DESTDIR=" clean
+make[1]: Entering directory `/home/dmitri/workspace/hack/profiling_newrelic/vendor/gems/ruby/2.2.0/gems/ruby-prof-0.15.9/ext/ruby_prof'
+make[1]: Leaving directory `/home/dmitri/workspace/hack/profiling_newrelic/vendor/gems/ruby/2.2.0/gems/ruby-prof-0.15.9/ext/ruby_prof'
+
+make "DESTDIR="
+make[1]: Entering directory `/home/dmitri/workspace/hack/profiling_newrelic/vendor/gems/ruby/2.2.0/gems/ruby-prof-0.15.9/ext/ruby_prof'
+compiling rp_measure_memory.c
+compiling rp_measure_gc_time.c
+compiling rp_stack.c
+compiling rp_thread.c
+compiling rp_method.c
+compiling rp_measure_gc_runs.c
+compiling rp_measure_cpu_time.c
+rp_measure_cpu_time.c: In function ‘measure_cpu_time’:
+rp_measure_cpu_time.c:61:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     double seconds = 0;
+     ^
+compiling ruby_prof.c
+compiling rp_call_info.c
+compiling rp_measure_allocations.c
+compiling rp_measure_wall_time.c
+compiling rp_measure_process_time.c
+compiling rp_measure.c
+linking shared-object ruby_prof.so
+make[1]: Leaving directory `/home/dmitri/workspace/hack/profiling_newrelic/vendor/gems/ruby/2.2.0/gems/ruby-prof-0.15.9/ext/ruby_prof'
+
+make "DESTDIR=" install
+make[1]: Entering directory `/home/dmitri/workspace/hack/profiling_newrelic/vendor/gems/ruby/2.2.0/gems/ruby-prof-0.15.9/ext/ruby_prof'
+/usr/bin/install -m 0755 ruby_prof.so ./.gem.20160530-25795-2ict93
+make[1]: Leaving directory `/home/dmitri/workspace/hack/profiling_newrelic/vendor/gems/ruby/2.2.0/gems/ruby-prof-0.15.9/ext/ruby_prof'

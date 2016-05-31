@@ -109,6 +109,8 @@ module NewRelic
       end
 
       def self.start(state, category, options)
+        puts "-"*10 + self.class.to_s + " start "
+        RubyProf.start
         category ||= :controller
         txn = state.current_transaction
 
@@ -118,6 +120,12 @@ module NewRelic
           txn = start_new_transaction(state, category, options)
         end
 
+        puts "-"*10 + self.class.to_s + " stop "
+        result = RubyProf.stop
+        graph = RubyProf::GraphPrinter.new(result)
+        File.open("./data/transaction.txt", "w") do |f|
+          graph.print(f)
+        end
         txn
       rescue => e
         NewRelic::Agent.logger.error("Exception during Transaction.start", e)
