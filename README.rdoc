@@ -1,6 +1,8 @@
 ### Purpose
 
-Illustrate what the New Relic Ruby gem does when it profiles Ruby code
+Illustrate what the New Relic Ruby gem does when it profiles Ruby code.
+Currently using [RubyProf](https://github.com/ruby-prof/ruby-prof) to profile
+the New Relic gem.
 
 ### Use
 Install all of the gems to a local vendor/ project
