@@ -2,8 +2,30 @@
 
 Illustrate what the New Relic Ruby gem does when it profiles Ruby code
 
-###Install
+### Use
+Install all of the gems to a local vendor/ project
 `make install`
 
-###Usage
+There are some traces already inserted here is the way to look at what they
+accomplish. I use tmux to run these commands in separate windows.
+`
+rails s
+`
+
+`
+make sample # make a sample request
+`
+
+`
+cat data/newrelic_flat.txt  # "flat" representation of the New relic agent startup
+cat data/newrelic_graph.txt # graph representation --//--
+cat data/transactions.txt   # graph of the transaction requests
+`
+
+### Hacking on the NewRelic gem
 `bundle open newrelic_rpm`
+
+
+### TODO
+-[] Figure out which pieces are worth RubyProfile.start and RubyProfil.stop
+-[] Look at GraphHTMLPrinter that generates the graph reports for an application
